@@ -27,9 +27,6 @@ apply plugin: 'kotlin-android'
 android {
     namespace "gabrimatic.info.restart"
     compileSdkVersion 34
-    kotlin {
-        jvmToolchain(17)
-    }
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
